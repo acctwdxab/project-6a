@@ -6,6 +6,8 @@
 
 
 def find_median(some_num):
+
+    """function returns the median of a list of numbers"""
     some_num.sort()
 
     if(len(some_num) %2 == 1):
